@@ -12,6 +12,8 @@
 
 body{
     width: 100vw;
+    max-width:1500px;
+    margin:auto;
     height: 100%;
 
     font-family: 'Fira Sans', sans-serif;

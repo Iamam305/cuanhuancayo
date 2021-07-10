@@ -1,0 +1,368 @@
+@media (min-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            text-align: center;
+        }
+    }
+    
+
+
+body{
+    width: 100vw;
+    height: 100%;
+
+    font-family: 'Fira Sans', sans-serif;
+}
+.bg-red {
+    
+    background-color:red;
+
+}
+
+
+/* Navbar */
+.navbar-brand{
+    width: 150px;
+    margin-left: 10%;
+}
+.nav-link{
+    color:white;
+}
+
+.nav-registerButton{
+    border-radius: 20px;
+    background:transparent;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+
+}
+.nav-registerButton:hover{
+    border-radius: 20px;
+    background:white;
+    color: rgb(255, 0, 0);
+    border-width: 1px;
+    border-color: white;
+
+}
+.nav-inicButton{
+    border-radius: 20px;
+    background: white;
+    color: red;
+
+
+}
+.nav-inicButton:hover{
+    border-radius: 20px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-color: white;
+
+
+
+}
+.icon{
+    width: 30px;
+    padding-right: 8px;
+}
+.nav-link{
+    font-size: small;
+
+    margin-right: 10px;
+    font-weight:600;
+    color: black;
+    
+}
+
+
+/* Carousel */
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+.carousel-caption{
+    text-align: left;
+}
+/* Section-1 */
+.text-red{
+    font-style: italic;
+    font-weight: bold;
+    color:red;
+}
+.row{
+    justify-content: center;
+}
+.text-gray{
+    font-weight: 500;
+    color:rgb(88, 88, 88);
+}
+.text-bold{
+    font-weight: bold;
+}
+
+.c-title{
+    padding: 10px 10px 10px 10px;
+    background-color:red;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 2px;
+    margin-bottom: 0;
+    position: absolute;
+
+    bottom: 0;
+    
+    left: 0px;
+    font-size: x-large;
+}
+
+
+.item {
+    
+    color: white;
+    margin-bottom: 30px;
+    margin-left:8px;
+    margin-right: 8px;
+}
+
+.item .box {
+    border-radius: 10px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    position: relative;
+    overflow: hidden
+}
+
+.item .cover {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    padding-top: 25%;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15)
+}
+
+.item:hover .cover {
+    opacity: 1
+}
+.item:hover .c-title{
+    opacity: 0;
+}
+
+
+
+.item .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #bbd8fb;
+    letter-spacing: 2px;
+    font-size: 13px;
+    margin-bottom: 20px
+}
+
+.button-red{
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+}
+.button-red:hover{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+}
+
+
+
+/* Section-2 */
+
+.ultimaConvocatories{
+    background-image: url('../images/im02.jpg');
+    background-size: cover;
+    margin-bottom: 0;
+    padding-bottom: 4px;
+    justify-content: center;
+    text-align: center;
+}
+.card{
+    border-radius: 20px;
+}
+
+
+/* Section-3 */
+
+.card-transparent{
+    background-color: transparent;
+    border-color: transparent;
+    justify-content: center;
+    text-align: center;
+}
+.beneIcon{
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+}
+.video{
+    border-radius: 20px;
+}
+/* Section-5 */
+.registrateBanner{
+    background-image: url('../images/im06.jpg');
+    background-size: cover;
+    margin-bottom: 0;
+    padding-bottom: 4px;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-registrate{
+
+    padding: 40px 40px 40px 80px;
+    background: transparent;
+    background-size: 100% 100%;
+    background-image: url('../images/review_bg.png');
+}
+.registrateButton{
+    background-color: transparent;
+    color:red;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: red;
+}
+.registrateButton:hover{
+    background-color: red;
+    color:rgb(255, 255, 255);
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: red;
+}
+.btn-block:hover{
+    color:red;
+}
+
+/*Contact */
+
+.captchaRefresh{
+    color:white;
+    background-color: transparent;
+
+}
+.captchaRefresh:hover{
+    color:red;
+    background-color: white;
+
+}
+.formSubmit{
+    color:gray;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: rgb(184, 184, 184);
+}
+
+*{
+    overflow: hidden;
+}
+
+html{
+    overflow-y:scroll;
+}
+
+
+select {
+
+    font-size: 16px;
+    border: 1px solid #CCC;
+    height: 34px;
+
+
+  }
+  
+  
+  /* CAUTION: Internet Explorer hackery ahead */
+  
+  
+  select::-ms-expand {
+      display: none; /* Remove default arrow in Internet Explorer 10 and 11 */
+  }
+  
+  /* Target Internet Explorer 9 to undo the custom arrow */
+  @media screen and (min-width:0\0) {
+      select {
+          background: none\9;
+          padding: 5px\9;
+      }
+  }
+
+
+
+  .socialLink{
+      color: white;
+      text-decoration: none;
+  }
+  .socialLink:hover{
+    color: rgb(160, 160, 160);
+    text-decoration: none;
+}
+  /* PAGE-2 Convocatories */
+
+  .tag{
+      background-color: transparent;
+      border-color: red;
+      border-radius: 20px;
+      font-size: x-small;
+      border-width: 1px;
+  }
+  .tag-gray{
+    background-color: transparent;
+    border-color: rgb(87, 87, 87);
+    border-radius: 20px;
+    font-size: x-small;
+    border-width: 1px;
+}
+
+
+
+/* PAGE-3 Beneficios */
+.accLink{
+    background-color: transparent;
+
+    color:rgb(0, 0, 0);
+}
+
+.accHolder{
+    width: 100%;
+    background-color: transparent;
+}
+.accBody{
+    color:gray;
+    background-color: rgb(207, 207, 207);
+}
+
+.collapseIcon{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 50px;
+}       
+.active .nav-link{
+    color: red;
+    border-color: red;
+}
+
+a .icon:hover{
+    opacity: 0.5;
+}
+html * {
+
+    font-family: 'Fira Sans', sans-serif;
+  }
